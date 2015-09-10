@@ -6,10 +6,4 @@ MRuby::Gem::Specification.new('mruby-sample-gem') do |spec|
 
   # Add your runtime dependencies here
   # spec.add_dependency('mruby-math', :core => 'mruby-math')
-
-
-  # Add your test dependencies here
-  if build.test_enabled?
-    spec.add_dependency('mruby-spec', :github => 'sagmor/mruby-spec')
-  end
 end
